@@ -1,0 +1,2124 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KINDN3SS ARCHIVE</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link
+href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;800&family=Pretendard:wght@300;400;500;600;700&display=swap"
+rel="stylesheet"
+/>
+
+</head>
+
+<body>
+
+<div class="cursor-glow"></div>
+
+<!-- MAIN EDIT -->
+
+<aside id="mainEditor" class="editor-modal">
+
+<h2>EDIT ARCHIVE</h2>
+
+<div class="editor-grid">
+
+<div class="editor-column">
+
+<label>ARCHIVE TITLE</label>
+<input type="text" id="mainTitleInput">
+
+<label>SUB TITLE</label>
+<input type="text" id="subTitleInput">
+
+<label>DESCRIPTION</label>
+<textarea id="mainDescInput"></textarea>
+
+<label>PROJECT NUMBER</label>
+<input type="text" id="projectNumberInput">
+
+<label>PROJECT LABEL</label>
+<input type="text" id="projectLabelInput">
+
+<label>ARCHIVE LABEL</label>
+<input type="text" id="archiveLabelInput">
+
+<label>SUB DESCRIPTION</label>
+<input type="text" id="subDescInput">
+
+<label>PROJECT TEXT</label>
+<input type="text" id="projectTextInput">
+
+</div>
+
+<div class="editor-column">
+
+<label>NEWS TITLE</label>
+<input type="text" id="newsTitleInput">
+
+<label>NEWS CONTENT</label>
+<textarea id="newsContentInput"></textarea>
+
+<label>MAIN COLOR</label>
+<input type="color" id="themeColorInput">
+<label>BACKGROUND COLOR</label>
+<input type="color" id="bgColorInput">
+<label>SUBTEXT COLOR</label>
+<input type="color" id="subTextColorInput">
+<label>TEXT COLOR</label>
+<input type="color" id="textColorInput">
+<label>LINE COLOR</label>
+<input type="color" id="lineColorInput">
+<label>BORDER COLOR</label>
+<input type="color" id="borderColorInput">
+<label>ACCENT COLOR</label>
+<input type="color" id="accentColorInput">
+<label>SELECTION COLOR</label>
+<input type="color" id="selectionColorInput">
+<label>SELECTION TEXT</label>
+<input type="color" id="selectionTextColorInput">
+<label>PROFILE IMAGE</label>
+<input
+type="text"
+id="profileImageInput"
+placeholder="https://..."
+>
+
+
+<label>PROFILE NAME</label>
+<input type="text" id="profileNameInput">
+
+<label>PROFILE TYPE</label>
+<input type="text" id="profileTypeInput">
+
+<label>PROFILE STATUS</label>
+<input type="text" id="profileStatusInput">
+
+<label>STANDING IMAGE</label>
+<input
+type="text"
+id="standingImageInput"
+placeholder="https://..."
+>
+>
+</div>
+
+</div>
+
+<div class="editor-buttons">
+
+<button id="saveMainButton">
+SAVE
+</button>
+<button id="exportArchiveButton">
+EXPORT
+</button>
+<button id="importArchiveButton">
+IMPORT
+</button>
+
+<input
+type="file"
+id="importArchiveFile"
+accept=".json"
+style="display:none"
+>
+<button id="closeMainButton">
+CLOSE
+</button>
+
+</div>
+
+</aside>
+<aside id="aboutEditor" class="editor-modal">
+
+<h2>EDIT ABOUT</h2>
+
+<div class="editor-grid">
+
+<div class="editor-column">
+
+<label>ABOUT TITLE</label>
+<input type="text" id="aboutTitleInput">
+
+<label>ABOUT DESCRIPTION</label>
+<textarea id="aboutDescInput"></textarea>
+
+<label>ABOUT IMAGE</label>
+<input
+type="text"
+id="aboutImageInput"
+placeholder="https://..."
+>
+
+</div>
+
+<div class="editor-column">
+
+<label>LINK 1 TITLE</label>
+<input type="text" id="aboutTitle1">
+
+<label>LINK 1 URL</label>
+<input type="text" id="aboutLink1">
+
+<label>LINK 2 TITLE</label>
+<input type="text" id="aboutTitle2">
+
+<label>LINK 2 URL</label>
+<input type="text" id="aboutLink2">
+
+<label>LINK 3 TITLE</label>
+<input type="text" id="aboutTitle3">
+
+<label>LINK 3 URL</label>
+<input type="text" id="aboutLink3">
+
+<label>LINK 4 TITLE</label>
+<input type="text" id="aboutTitle4">
+
+<label>LINK 4 URL</label>
+<input type="text" id="aboutLink4">
+
+</div>
+
+</div>
+
+<div class="editor-buttons">
+
+<button id="saveAboutButton">
+SAVE
+</button>
+
+<button id="closeAboutButton">
+CLOSE
+</button>
+
+</div>
+
+</aside>
+
+<!-- CHARACTER EDIT -->
+
+<aside id="characterEditor" class="editor-modal">
+
+<h2>CHARACTER EDIT</h2>
+
+<label>NAME</label>
+<input type="text" id="charNameInput">
+
+<label>CODE</label>
+<input type="text" id="charCodeInput">
+
+<label>DESCRIPTION</label>
+<textarea id="charDescInput"></textarea>
+
+<label>CATEGORY</label>
+
+<select id="charCategoryInput">
+
+<option>
+AU/IF
+</option>
+
+<option>
+OC
+</option>
+
+<option>
+NPC
+</option>
+
+</select>
+
+</select>
+
+<label>IMAGE</label>
+<input
+type="text"
+id="charImageInput"
+placeholder="https://..."
+>
+<div class="editor-buttons">
+
+<button id="saveCharacterButton">
+SAVE CHARACTER
+</button>
+
+<button id="closeCharacterButton">
+CLOSE
+</button>
+
+</div>
+
+</aside>
+
+<!-- SITE -->
+
+<main class="site">
+
+<!-- TOPBAR -->
+
+<header class="topbar">
+
+<div class="logo-wrap">
+
+<div class="logo-circle"></div>
+
+<h1>
+Archive
+</h1>
+
+</div>
+
+<nav>
+
+<a href="#" class="active" id="homeNav">
+HOME
+</a>
+
+<a href="#" id="characterNav">
+CHARACTER
+</a>
+
+<a href="#" id="worldNav">
+WORLD
+</a>
+
+<a href="#" id="listNav">
+LIST
+</a>
+
+<a href="#" id="aboutNav">
+ABOUT
+</a>
+
+</nav>
+
+<div class="menu-dot">
+⋮
+</div>
+
+</header>
+
+<!-- HOME -->
+
+<section class="main-grid" id="homePage">
+
+<!-- LEFT -->
+
+<section class="left-area">
+
+<div class="left-line"></div>
+
+<p
+class="archive-label"
+id="archiveLabel"
+>
+PRIVATE ARCHIVE
+</p>
+
+<h2 id="mainTitle">
+이름
+</h2>
+
+<h3 id="subTitle">
+ENG/日本語
+</h3>
+
+<p
+class="description"
+id="mainDescription"
+>
+캐치프레이즈를<br>
+입력해주세요.
+</p>
+
+<p
+class="sub-desc"
+id="subDesc"
+>
+텍스트를 입력해주세요
+</p>
+
+<button id="editArchiveButton">
+EDIT
+</button>
+
+</section>
+
+
+<!-- CENTER -->
+
+<section class="center-area">
+
+<div class="news-panel">
+
+<div class="panel-top">
+
+<h4 id="newsTitle">
+LATEST NEWS
+</h4>
+
+<span>
+MORE +
+</span>
+
+</div>
+
+<div
+class="news-content"
+id="newsContent"
+>
+아카이브가 개설되었습니다.
+</div>
+
+</div>
+
+<div class="profile-card">
+
+<img
+src="images/profile.png"
+id="profilePreview"
+>
+
+<div class="profile-info">
+
+<span>
+NAME
+</span>
+
+<h4 id="profileName">
+THE ARCHIVE
+</h4>
+
+<span>
+TYPE
+</span>
+
+<h4 id="profileType">
+MEMORY DATA
+</h4>
+
+<span>
+STATUS
+</span>
+
+<h4 id="profileStatus">
+ACTIVE
+</h4>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- RIGHT -->
+
+<section class="right-area">
+
+<div class="project-info">
+
+<span id="projectText">
+PROJECT
+</span>
+
+<h2 id="projectNumber">
+001
+</h2>
+
+<p id="projectLabel">
+ARCHIVE SYSTEM
+</p>
+
+</div>
+
+<img
+src="images/character.png"
+id="characterImage"
+>
+
+</section>
+
+</section>
+
+<!-- CHARACTER -->
+
+<section
+class="character-page"
+id="characterPage"
+>
+
+<div class="character-layout">
+
+<!-- SIDEBAR -->
+
+<aside class="character-sidebar">
+
+<span>
+PRIVATE ARCHIVE
+</span>
+
+<h2>
+02
+</h2>
+
+<ul>
+
+<li id="filterAll">
+ALL CHARACTER
+</li>
+
+<li id="filterAUIF">
+AU&IF
+</li>
+
+<li id="filterOC">
+TRPG
+</li>
+
+
+</ul>
+
+</aside>
+
+<!-- CENTER -->
+
+<section class="character-center">
+
+<div class="character-header">
+
+<div>
+
+<h1>
+CHARACTER
+</h1>
+
+<p>
+캐릭터 목록
+</p>
+
+</div>
+
+<div class="character-actions">
+
+<select id="sortSelect">
+
+<option value="custom">
+ORDER
+</option>
+
+<option value="latest">
+최신순
+</option>
+
+<option value="oldest">
+오래된순
+</option>
+
+<option value="name">
+이름순
+</option>
+
+</select>
+
+<button id="addCharacterButton">
++ ADD
+</button>
+
+</div>
+
+</div>
+
+<div
+class="character-grid"
+id="characterGrid"
+></div>
+
+</section>
+
+</div>
+
+</section>
+<section
+class="world-page"
+id="worldPage"
+style="display:none"
+>
+
+<div class="world-hero">
+
+  <div class="world-hero-image">
+
+    
+
+    <img
+      id="worldHeroImage"
+      src=""
+      alt=""
+    >
+    <button
+id="worldSettingButton"
+class="world-setting-btn"
+>
+⚙
+</button>
+
+    <div class="world-hero-overlay">
+
+      <div class="world-hero-label">
+        WORLD
+      </div>
+
+   <div
+class="world-hero-title"
+id="worldTitle"
+>
+WORLD TITLE
+</div>
+
+      <div
+class="world-hero-subtitle"
+id="worldSubtitle"
+>
+        세계관 부제목
+      </div>
+
+
+<div
+class="world-hero-quote"
+>
+
+<span class="quote-icon">
+❝
+</span>
+
+<span id="worldQuote">
+인용문
+</span>
+
+</div>
+     <div
+class="world-hero-desc"
+id="worldDesc"
+>
+        세계관 설명
+      </div>
+
+    </div>
+
+<a
+id="worldEnterLink"
+class="world-enter"
+href="#"
+target="_blank"
+>
+→
+</a>
+
+  </div>
+
+</div>
+
+<div class="world-grid">
+
+<div class="world-card" id="overviewCard">
+
+<div class="world-card-number">
+01 OVERVIEW
+</div>
+
+<div class="world-card-icon">
+◆
+</div>
+
+<div class="world-card-text">
+세계관 개요
+</div>
+
+<div class="world-card-enter">
+ENTER →
+</div>
+
+</div>
+
+<div class="world-card" id="storyCard">
+
+<div class="world-card-number">
+02 STORY
+</div>
+
+<div class="world-card-icon">
+◆
+</div>
+
+<div class="world-card-text">
+세계관 스토리
+</div>
+
+<div class="world-card-enter">
+ENTER →
+</div>
+
+</div>
+
+<div class="world-setting" id="settingsCard">
+
+<div class="world-setting-title">
+03 SETTINGS
+</div>
+
+<div class="world-card-icon">
+◆
+</div>
+
+<div class="world-setting-text">
+세계관 설정
+</div>
+
+<div class="world-card-enter">
+ENTER →
+</div>
+
+</div>
+
+</div>
+
+</section>
+<section
+id="listPage"
+class="list-page"
+style="display:none"
+>
+
+<div class="list-header">
+<h1>LIST</h1>
+
+<button id="addProjectButton">
++ ADD PROJECT
+</button>
+</div>
+
+<div
+id="projectGrid"
+class="project-grid"
+></div>
+
+</section>
+<section
+id="projectDetailPage"
+class="project-detail-page"
+style="display:none"
+>
+
+<button id="backToList">
+← LIST로 돌아가기
+</button>
+
+<div id="projectDetailContent">
+</div>
+
+</section>
+
+<section
+id="aboutPage"
+class="about-page"
+style="display:none"
+>
+
+<div class="about-layout">
+
+<div class="about-left">
+
+<div class="about-title-area">
+
+<h1 id="aboutPageTitle">
+ABOUT
+</h1>
+
+<p id="aboutPageDesc">
+Link
+</p>
+
+<button
+id="aboutEditButton"
+class="about-edit-btn"
+>
+EDIT
+</button>
+
+</div>
+
+<div
+id="aboutLinks"
+class="about-links"
+>
+</div>
+
+</div>
+
+<div class="about-right">
+
+<div class="polaroid">
+
+<img
+id="aboutPhotoImage"
+src=""
+>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="overviewPage" class="world-detail-page">
+
+<div class="world-detail-back" id="backFromOverview">
+← BACK TO WORLD
+</div>
+
+<div class="world-detail-header">
+
+<div class="world-detail-number">01</div>
+
+<h1>OVERVIEW</h1>
+<button
+id="overviewEditButton"
+class="world-edit-btn"
+>
+✎ EDIT
+</button>
+
+<h2 id="overviewPageTitle">
+세계관 개요
+</h2>
+
+<p>WORLD OVERVIEW</p>
+
+<div
+class="world-detail-subtitle"
+id="overviewPageSubtitle"
+>
+부제목
+</div>
+
+<div class="world-detail-divider"></div>
+
+<div
+class="world-detail-content"
+id="overviewPageContent"
+>
+내용
+</div>
+
+</section>
+
+<section id="storyPage" class="world-detail-page">
+
+<div class="world-detail-back" id="backFromStory">
+← BACK TO WORLD
+</div>
+
+<div class="world-detail-header">
+
+<div class="world-detail-number">02</div>
+
+<h1>STORY</h1>
+<button
+id="storyEditButton"
+class="world-edit-btn"
+>
+✎ EDIT
+</button>
+
+<h2 id="storyPageTitle">
+세계관 스토리
+</h2>
+
+<p>WORLD STORY</p>
+
+<div
+class="world-detail-subtitle"
+id="storyPageSubtitle"
+>
+부제목
+</div>
+
+<div class="world-detail-divider"></div>
+
+<div
+class="world-detail-content"
+id="storyPageContent"
+>
+내용
+</div>
+
+</section>
+
+<section id="settingsPage" class="world-detail-page">
+
+<div class="world-detail-back" id="backFromSettings">
+← BACK TO WORLD
+</div>
+
+<div class="world-detail-header">
+
+<div class="world-detail-number">03</div>
+
+<h1>SETTINGS</h1>
+
+<h2>세계관 설정</h2>
+
+</div>
+
+<div class="settings-list">
+
+<div id="settingsCategoryList"></div>
+
+<button
+id="addCategoryButton"
+class="settings-add-btn"
+>
++ ADD CATEGORY
+</button>
+
+</div>
+
+</section>
+
+<section
+id="settingCategoryPage"
+class="world-detail-page"
+style="display:none"
+>
+
+<div
+class="world-detail-back"
+id="backFromCategory"
+>
+← BACK TO SETTINGS
+</div>
+
+<div class="world-detail-header">
+
+<div class="world-detail-number">
+03
+</div>
+
+<h1 id="categoryPageTitle">
+CATEGORY
+</h1>
+
+<h2 id="categoryPageSubTitle">
+CATEGORY
+</h2>
+
+</div>
+
+<div id="settingPageList"></div>
+
+<button
+id="addSettingPageButton"
+class="settings-add-btn"
+>
++ ADD PAGE
+</button>
+</section>
+<aside
+id="settingPageEditor"
+class="editor-modal"
+>
+
+<h2>PAGE EDITOR</h2>
+
+<label>PAGE NAME</label>
+
+<input
+type="text"
+id="settingPageNameInput"
+>
+
+<div class="editor-buttons">
+
+<button id="saveSettingPageButton">
+SAVE
+</button>
+
+<button id="deleteSettingPageButton">
+DELETE
+</button>
+
+<button id="closeSettingPageButton">
+CLOSE
+</button>
+
+</div>
+
+</aside>
+
+<section
+id="settingContentPage"
+class="world-detail-page"
+style="display:none"
+>
+
+<div
+class="world-detail-back"
+id="backFromContentPage"
+>
+← BACK
+</div>
+
+<div class="world-detail-header">
+
+<h1 id="contentPageTitle">
+PAGE
+</h1>
+<h2 id="contentPageSubtitle">
+</h2>
+
+<button
+id="editContentButton"
+class="world-edit-btn"
+>
+✎ EDIT
+</button>
+
+</div>
+
+<div
+id="contentPageBody"
+class="world-detail-content"
+>
+내용
+</div>
+
+</section>
+
+<aside
+id="contentEditor"
+class="editor-modal"
+>
+
+<h2>PAGE CONTENT</h2>
+<label>TITLE</label>
+
+<input
+type="text"
+id="contentTitleInput"
+>
+
+<label>SUBTITLE</label>
+
+<input
+type="text"
+id="contentSubtitleInput"
+>
+
+<div class="story-toolbar">
+
+<button id="pageBoldBtn">
+<b>B</b>
+</button>
+
+<button id="pageItalicBtn">
+<i>I</i>
+</button>
+
+<button id="pageUnderlineBtn">
+<u>U</u>
+</button>
+
+<button id="pageStrikeBtn">
+S̶
+</button>
+
+<button id="pageColorBtn">
+🎨
+</button>
+
+<button id="pageHrBtn">
+—
+</button>
+
+<input
+type="color"
+id="pageColorPicker"
+value="#ffffff"
+hidden
+>
+
+</div>
+
+<textarea
+id="contentEditorInput"
+></textarea>
+
+<div class="editor-buttons">
+
+<button id="saveContentButton">
+SAVE
+</button>
+
+<button id="closeContentButton">
+CLOSE
+</button>
+
+</div>
+
+</aside>
+
+<!-- PROFILE DETAIL -->
+
+<section
+id="characterProfile"
+class="character-profile"
+>
+
+<div class="profile-shell">
+
+<!-- TOP -->
+
+<div class="profile-top">
+
+<div class="profile-top-left">
+
+<span id="detailCode">
+001
+</span>
+
+<h2 id="detailName">
+NAME
+</h2>
+
+</div>
+
+<div class="profile-top-right">
+
+<p>
+LAST UPDATED.
+2025.05.17
+</p>
+
+<button
+id="closeProfileButton"
+class="close-profile"
+>
+×
+</button>
+
+</div>
+
+</div>
+
+<!-- BODY -->
+
+<div class="profile-body">
+
+<!-- LEFT -->
+
+<div class="profile-left-panel">
+<div class="relationship-header">
+
+<h3>
+RELATIONSHIP
+</h3>
+
+<button
+id="addRelationshipButton"
+class="add-relationship"
+>
++
+</button>
+</div>
+
+<div class="relationship-circle">
+<div
+class="relationship-layout"
+id="relationshipList"
+>
+
+<div class="relation-slot top"></div>
+
+<div class="relation-slot left-top"></div>
+
+<div class="relation-slot right-top"></div>
+
+<div class="relation-slot left-bottom"></div>
+
+<div class="relation-slot right-bottom"></div>
+
+<div class="relation-slot bottom"></div>
+
+</div>
+<div class="relationship-center">
+
+<img
+id="detailImage"
+src="images/profile.png"
+>
+
+<h4 id="detailNameMirror">
+NAME
+</h4>
+
+<p id="detailCategory">
+AU
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- RIGHT -->
+
+<div class="profile-right-panel">
+
+<!-- TAB -->
+
+<div class="profile-tabs">
+
+<button
+class="profile-tab active"
+data-tab="status"
+>
+STATUS
+</button>
+
+<button
+class="profile-tab"
+data-tab="story"
+>
+STORY
+</button>
+
+<button
+class="profile-tab"
+data-tab="memo"
+>
+MEMO
+</button>
+
+<button
+class="profile-tab"
+data-tab="edit"
+>
+EDIT
+</button>
+
+</div>
+
+<!-- STATUS -->
+
+<div
+class="profile-content active"
+id="statusTab"
+>
+
+<div class="status-layout">
+
+<div class="status-info">
+<button id="statusFab">✎</button>
+
+<div class="status-image">
+
+<img
+id="detailSubImage"
+src="images/profile.png"
+>
+
+</div>
+
+<div class="status-list">
+
+<div>
+<span>NAME</span>
+<p id="statusName">
+NAME
+</p>
+</div>
+
+<div>
+<span>TYPE</span>
+<p id="statusType">
+TEXT
+</p>
+</div>
+
+<div>
+<span>AGE</span>
+<p id="statusAge">
+??
+</p>
+</div>
+
+<div>
+<span>HEIGHT</span>
+<p id="statusHeight">
+180
+</p>
+<div
+id="inlineStatusEditor"
+class="inline-status-editor"
+>
+
+<div class="status-edit-grid">
+
+<input
+type="text"
+id="statusTypeInput"
+placeholder="TYPE"
+/>
+
+<input
+type="text"
+id="statusAgeInput"
+placeholder="AGE"
+/>
+
+<input
+type="text"
+id="statusHeightInput"
+placeholder="HEIGHT"
+/>
+<button id="saveStatusButton">
+SAVE
+</button>
+</div>
+
+</div>
+</div>
+
+</div>
+
+</div>
+
+<div class="status-stat">
+
+<div class="stat-header">
+
+<h3>
+STAT
+</h3>
+
+<button id="statFab">
+✎
+</button>
+
+</div>
+
+<div class="radar-wrapper">
+
+<svg
+id="statRadar"
+width="420"
+height="420"
+viewBox="0 0 420 420"
+>
+
+<polygon
+id="radarBackground"
+points="
+210,60
+340,135
+340,285
+210,360
+80,285
+80,135
+"
+/>
+
+<polygon
+id="radarPolygon"
+/>
+
+</svg>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- STORY -->
+
+<div
+class="profile-content"
+id="storyTab"
+>
+
+<div class="story-header">
+
+<button id="addStoryButton">
++ STORY
+</button>
+
+</div>
+
+<div
+id="storyTimeline"
+class="story-timeline"
+></div>
+
+</div>
+
+<!-- MEMO -->
+
+<div
+class="profile-content"
+id="memoTab"
+>
+
+<div class="memo-header">
+
+<input
+id="memoSearch"
+placeholder="메모 검색..."
+>
+
+<button id="addMemoButton">
++ 새 메모
+</button>
+
+</div>
+
+<div id="memoList">
+</div>
+
+</div>
+
+<!-- EDIT -->
+
+<div
+class="profile-content"
+id="editTab"
+>
+
+<div class="profile-edit-grid">
+
+<div>
+
+<label>NAME</label>
+<input type="text" id="detailEditName">
+
+<label>CODE</label>
+<input type="text" id="detailEditCode">
+
+<label>DESCRIPTION</label>
+<textarea id="detailEditDesc"></textarea>
+
+</div>
+
+<div>
+
+<label>CATEGORY</label>
+
+<select id="detailEditCategory">
+
+<option>AU</option>
+<option>IF</option>
+<option>OC</option>
+<option>NPC</option>
+
+</select>
+
+<label>IMAGE</label>
+<input
+type="text"
+id="detailEditImage"
+placeholder="https://..."
+>
+
+<button id="saveDetailButton">
+SAVE
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+<!-- RELATION EDITOR -->
+ <div
+class="relation-editor"
+id="statEditor"
+>
+
+<div class="relation-editor-box">
+
+<h3>STAT EDIT</h3>
+
+<input id="statLabel0" placeholder="항목명">
+<input id="statValue0" type="number" min="0" max="100">
+
+<input id="statLabel1" placeholder="항목명">
+<input id="statValue1" type="number" min="0" max="100">
+
+<input id="statLabel2" placeholder="항목명">
+<input id="statValue2" type="number" min="0" max="100">
+
+<input id="statLabel3" placeholder="항목명">
+<input id="statValue3" type="number" min="0" max="100">
+
+<input id="statLabel4" placeholder="항목명">
+<input id="statValue4" type="number" min="0" max="100">
+
+<input id="statLabel5" placeholder="항목명">
+<input id="statValue5" type="number" min="0" max="100">
+
+<div class="relation-editor-buttons">
+
+<button id="saveStatsButton">
+SAVE
+</button>
+
+<button id="closeStatsButton">
+CLOSE
+</button>
+
+</div>
+
+</div>
+
+</div>
+<div
+class="story-modal"
+id="storyEditor"
+>
+
+<div class="story-modal-box">
+
+<div class="story-modal-top">
+
+<h2>
+STORY
+</h2>
+
+<button id="closeStoryButton">
+×
+</button>
+
+</div>
+
+<p class="story-subtitle">
+스토리를 작성하고 기록합니다.
+</p>
+
+<label>
+DATE
+</label>
+
+<input
+id="storyDateInput"
+placeholder="2026.05.31"
+>
+
+<label>
+TITLE
+</label>
+
+<input
+id="storyTitleInput"
+placeholder="제목"
+>
+
+<label>
+CONTENT
+</label>
+
+<div class="story-toolbar">
+
+<button id="boldBtn">
+<b>B</b>
+</button>
+
+<button id="italicBtn">
+<i>I</i>
+</button>
+
+<button id="underlineBtn">
+<u>U</u>
+</button>
+
+<button id="quoteBtn">
+❝
+</button>
+
+<button id="colorBtn">
+🎨
+</button>
+
+<input
+type="color"
+id="storyColor"
+value="#7da2ff"
+hidden
+>
+
+</div>
+
+<textarea
+id="storyContentInput"
+placeholder="내용"
+></textarea>
+<div class="story-footer">
+
+<button
+id="deleteStoryButton"
+>
+삭제하기
+</button>
+
+<div>
+
+<button
+id="cancelStoryButton"
+>
+취소
+</button>
+
+<button
+id="saveStoryButton"
+>
+저장하기
+</button>
+
+</div>
+
+</div>
+
+</div> <!-- story-modal-box 끝 -->
+</div> <!-- storyEditor 끝 -->
+
+<div
+class="story-modal"
+id="memoEditor"
+>
+
+<div class="story-modal-box">
+
+<div class="story-modal-top">
+
+<h2>
+MEMO
+</h2>
+
+<button id="closeMemoButton">
+×
+</button>
+
+</div>
+
+<label>
+제목
+</label>
+
+<input
+id="memoTitleInput"
+placeholder="제목"
+>
+
+<label>
+내용
+</label>
+
+<textarea
+id="memoContentInput"
+placeholder="내용"
+></textarea>
+
+<div class="story-footer">
+
+<button
+id="cancelMemoButton"
+>
+취소
+</button>
+
+<button
+id="saveMemoButton"
+>
+저장하기
+</button>
+
+</div>
+
+</div>
+</div>
+<div
+class="relation-editor"
+id="relationEditor"
+>
+
+<div class="relation-editor-box">
+
+<h3>
+RELATION EDIT
+</h3>
+
+<label>
+CHARACTER
+</label>
+
+<select id="relationCharacterSelect">
+</select>
+
+<label>
+POSITION
+</label>
+
+<select id="relationPositionInput">
+
+<option value="top">
+TOP
+</option>
+
+<option value="left-top">
+LEFT TOP
+</option>
+
+<option value="right-top">
+RIGHT TOP
+</option>
+
+<option value="left-bottom">
+LEFT BOTTOM
+</option>
+
+<option value="right-bottom">
+RIGHT BOTTOM
+</option>
+
+<option value="bottom">
+BOTTOM
+</option>
+
+</select>
+<label>
+RELATION TYPE
+</label>
+<input
+type="text"
+id="relationTypeInput"
+placeholder="관계성 입력"
+/>
+
+<label>
+LIKE
+</label>
+
+<input
+type="number"
+id="relationLikeInput"
+placeholder="0"
+/>
+
+<div class="relation-editor-buttons">
+
+<button id="saveRelationButton">
+SAVE
+</button>
+
+<button id="deleteRelationButton">
+DELETE
+</button>
+
+<button id="closeRelationButton">
+CLOSE
+</button>
+
+</div>
+
+</div>
+
+</div>
+<!-- BGM -->
+
+<div class="bgm-player">
+
+<div class="bgm-left">
+
+<button
+type="button"
+id="bgmToggle"
+>
+▶
+</button>
+
+<div class="bgm-text">
+
+<span>
+BGM
+</span>
+
+<p id="bgmTitle">
+NO SIGNAL
+</p>
+
+</div>
+
+</div>
+
+<div class="bgm-wave">
+
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+
+</div>
+
+<input
+type="range"
+id="bgmVolume"
+min="0"
+max="1"
+step="0.01"
+value="0.5"
+>
+
+<label
+for="bgmUpload"
+class="bgm-upload-label"
+>
+UPLOAD
+</label>
+<input
+type="text"
+id="bgmUpload"
+placeholder="https://..."
+>
+
+<audio
+id="bgmAudio"
+loop
+preload="auto"
+></audio>
+<div
+id="youtubePlayer"
+style="
+position:absolute;
+width:0;
+height:0;
+overflow:hidden;
+"
+></div>
+</div>
+
+</main>
+<aside
+id="worldEditor"
+class="editor-modal"
+>
+
+<h2>WORLD EDIT</h2>
+
+<label>TITLE</label>
+<input
+type="text"
+id="worldTitleInput"
+>
+
+<label>SUBTITLE</label>
+<input
+type="text"
+id="worldSubtitleInput"
+>
+
+<label>QUOTE</label>
+<input
+type="text"
+id="worldQuoteInput"
+>
+
+<label>DESCRIPTION</label>
+<textarea
+id="worldDescInput"
+></textarea>
+
+<label>WORLD IMAGE</label>
+
+<input
+type="text"
+id="worldImageInput"
+placeholder="https://..."
+>
+
+<label>WORLD LINK</label>
+<input
+type="text"
+id="worldLinkInput"
+placeholder="https://..."
+>
+
+<div class="editor-buttons">
+
+<button
+id="saveWorldButton"
+>
+SAVE
+</button>
+
+<button
+id="closeWorldButton"
+>
+CLOSE
+</button>
+
+</div>
+</aside>
+<aside
+id="overviewEditor"
+class="editor-modal"
+>
+
+<h2>OVERVIEW EDIT</h2>
+
+<label>TITLE</label>
+<input
+type="text"
+id="overviewTitleInput"
+/>
+
+<label>SUBTITLE</label>
+<input
+type="text"
+id="overviewSubtitleInput"
+/>
+
+<label>CONTENT</label>
+<textarea
+id="overviewContentInput"
+></textarea>
+
+<div class="editor-buttons">
+
+<button
+id="saveOverviewButton"
+>
+SAVE
+</button>
+
+<button
+id="closeOverviewButton"
+>
+CLOSE
+</button>
+
+</div>
+
+</aside>
+<aside
+id="storyEditorWorld"
+class="editor-modal"
+>
+
+<h2>STORY EDIT</h2>
+
+<label>TITLE</label>
+<input
+type="text"
+id="storyTitleInputWorld"
+/>
+
+<label>SUBTITLE</label>
+<input
+type="text"
+id="storySubtitleInputWorld"
+/>
+
+<label>CONTENT</label>
+<textarea
+id="storyContentInputWorld"
+></textarea>
+
+<div class="editor-buttons">
+
+<button
+id="saveStoryWorldButton"
+>
+SAVE
+</button>
+
+<button
+id="closeStoryWorldButton"
+>
+CLOSE
+</button>
+
+</div>
+
+</aside>
+<aside
+id="categoryEditor"
+class="editor-modal"
+>
+
+<h2>NEW CATEGORY</h2>
+
+<label>CATEGORY NAME</label>
+
+<input
+type="text"
+id="categoryNameInput"
+/>
+
+<div class="editor-buttons">
+
+<button
+id="saveCategoryButton"
+>
+CREATE
+</button>
+
+<button
+id="closeCategoryButton"
+>
+CLOSE
+</button>
+
+</div>
+
+</aside>
+<aside
+id="projectEditor"
+class="editor-modal"
+>
+
+<h2>PROJECT EDIT</h2>
+
+<label>TITLE</label>
+<input
+type="text"
+id="projectTitleInput"
+>
+
+<label>DESCRIPTION</label>
+<textarea
+id="projectDescInput"
+></textarea>
+
+<label>CHARACTERS</label>
+
+<div
+id="projectCharacterSelect"
+class="project-character-select"
+></div>
+
+<label>IMAGE</label>
+<input
+type="text"
+id="projectImageInput"
+placeholder="https://..."
+>
+
+<label>TAGS</label>
+<input
+type="text"
+id="projectTagsInput"
+placeholder="해시태그,해시태그,해시태그"
+>
+
+<label>PROJECT WORLD DESCRIPTION</label>
+
+<textarea
+id="projectWorldDescInput"
+></textarea>
+
+<div class="editor-buttons">
+
+<button id="saveProjectButton">
+SAVE
+</button>
+
+<button id="closeProjectButton">
+CLOSE
+</button>
+
+</div>
+
+</aside>
+<div
+id="characterListModal"
+class="character-list-modal"
+>
+
+<div
+class="character-list-box"
+>
+
+<div class="character-list-header">
+
+등장인물
+
+<button
+id="closeCharacterList"
+>
+✕
+</button>
+
+</div>
+
+<div
+id="characterListContent"
+class="character-list-content"
+>
+</div>
+
+</div>
+
+</div>
+<div
+id="characterListModal"
+class="character-list-modal"
+>
+
+<div class="character-list-box">
+
+<div class="character-list-header">
+
+등장인물 목록
+
+<button
+id="closeCharacterList"
+>
+✕
+</button>
+
+</div>
+
+<div
+id="characterListContent"
+class="character-list-content"
+>
+</div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+<script src="https://www.youtube.com/iframe_api"></script>
+</body>
+</html>
