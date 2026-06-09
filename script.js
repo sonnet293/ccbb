@@ -1566,22 +1566,22 @@ characterProfile.classList.remove(
 /* FILTER */
 /* ========================= */
 
-document.getElementById(
-"filterAll"
-).onclick = ()=>{
-renderCharacters("ALL");
+document.getElementById("filterAUIF").onclick = ()=>{
+  document.querySelectorAll(".character-sidebar li").forEach(li=>li.classList.remove("active"));
+  document.getElementById("filterAUIF").classList.add("active");
+  renderCharacters("AUIF");
 };
 
-document.getElementById(
-"filterAUIF"
-).onclick = ()=>{
-renderCharacters("AUIF");
+document.getElementById("filterOC").onclick = ()=>{
+  document.querySelectorAll(".character-sidebar li").forEach(li=>li.classList.remove("active"));
+  document.getElementById("filterOC").classList.add("active");
+  renderCharacters("OC");
 };
 
-document.getElementById(
-"filterOC"
-).onclick = ()=>{
-renderCharacters("OC");
+document.getElementById("filterNPC").onclick = ()=>{
+  document.querySelectorAll(".character-sidebar li").forEach(li=>li.classList.remove("active"));
+  document.getElementById("filterNPC").classList.add("active");
+  renderCharacters("NPC");
 };
 
 /* ========================= */
@@ -2058,7 +2058,8 @@ relations:[]
 
 }
 
-renderCharacters();
+document.getElementById("filterAUIF").classList.add("active");
+renderCharacters("AUIF");
 
 window.renderCharacters =
 renderCharacters;
@@ -3306,7 +3307,7 @@ applyArchiveData();
 
 renderAbout();
 
-renderCharacters();
+renderCharacters("AUIF");
 
 renderProjects();
 const aboutEditor =
