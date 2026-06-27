@@ -1,4 +1,3 @@
-
 /* ========================= */
 /* CURSOR */
 /* ========================= */
@@ -1165,7 +1164,7 @@ document.getElementById(
 
 document.getElementById(
 "charCategoryInput"
-).value = "AU/IF";
+).value = "ORIGIN";
 
 document.getElementById(
 "charImageInput"
@@ -1293,6 +1292,19 @@ finalize();
 /* ========================= */
 /* RENDER */
 /* ========================= */
+/*
+  필터 값 ↔ 사이드바 탭 ↔ 카테고리 매핑
+
+  filterAUIF (ORIGIN 탭) -> category === "ORIGIN"
+  filterOC   (AU&IF 탭)  -> category === "AU/IF"
+  filterNPC  (TRPG 탭)   -> category === "TRPG"
+*/
+
+const CATEGORY_BY_FILTER = {
+  AUIF:"ORIGIN",
+  OC:"AU/IF",
+  NPC:"TRPG"
+};
 
 function renderCharacters(
 filter = "ALL"
@@ -1302,23 +1314,16 @@ characterGrid.innerHTML = "";
 
 let filtered = characters;
 
-if(filter === "AUIF"){
+const targetCategory =
+CATEGORY_BY_FILTER[filter];
+
+if(targetCategory){
 
 filtered = characters.filter(
 (character)=>
-character.category === "AU"
-||
-character.category === "IF"
-||
-character.category === "AU/IF"
+character.category === targetCategory
 );
 
-}else if(filter !== "ALL"){
-
-filtered = characters.filter(
-(character)=>
-character.category === filter
-);
 }
 
 filtered.forEach(
@@ -2051,7 +2056,7 @@ id: crypto.randomUUID(),
 name:"예시",
 code:"001",
 desc:"텍스트를 입력해주세요.",
-category:"AU",
+category:"ORIGIN",
 image:"images/profile.png",
 relations:[]
 });
@@ -2346,7 +2351,7 @@ character.desc || "";
 document.getElementById(
 "detailEditCategory"
 ).value =
-character.category || "AU";
+character.category || "ORIGIN";
 
 });
 const statEditor =
