@@ -1332,6 +1332,9 @@ character,
 index
 )=>{
 
+const actualIndex =
+characters.indexOf(character);
+
 const card =
 document.createElement(
 "div"
@@ -1366,7 +1369,7 @@ ${character.desc}
 `;
 
 card.onclick = ()=>{
-openCharacterProfile(character,index);
+openCharacterProfile(character,actualIndex);
 };
 
 card.querySelector(
@@ -1376,9 +1379,9 @@ card.querySelector(
 e.stopPropagation();
 
 const deletedCharacter =
-characters[index];
+characters[actualIndex];
 
-characters.splice(index,1);
+characters.splice(actualIndex,1);
 
 /* 관계 정리 */
 
