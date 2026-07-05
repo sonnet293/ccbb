@@ -1,0 +1,531 @@
+{
+  "version": 1,
+  "viewerMode": false,
+  "archiveData": {
+    "title": "시시비비",
+    "subtitle": "時視庇比",
+    "description": "ㅡ서로의 때를 보고, 감싸며,\n끝내 나란히 서라.",
+    "projectNumber": "CCBB",
+    "projectLabel": "",
+    "newsTitle": "OVERVIEW",
+    "newsContent": "🦅: 우린 저 구름 위로 올라가는 거야.\n👻: 내가 너희를 도울 수 있단다. 그러니 한 번 믿어보렴.\n🐇: 난 세상이 소수에 의해 변한다는 걸 믿어.\n🌿: 정상에 오른 기분이 어때? 오늘도 바쁘게 움직여 볼까.\n",
+    "theme": "#426cd7",
+    "bg": "#eef2f8",
+    "text": "#0f172a",
+    "subText": "#64748b",
+    "accent": "#94a3b8",
+    "line": "#dbe4f2",
+    "border": "#dbe4f2",
+    "archiveLabel": "",
+    "subDesc": "#15년의_우정  #세상을_구한_영웅",
+    "profileName": "시시비비",
+    "profileType": "#hl #더블데이트",
+    "profileStatus": "포켓몬 챔피언",
+    "profileImage": "https://unique-chocolate-ocgfjjgp.edgeone.app/dc46782206097ba4.gif",
+    "standingImage": "https://historic-pink-bh6c3exk.edgeone.app/KakaoTalk_20260626_234548192.png",
+    "bgm": "",
+    "selection": "#426cd7",
+    "selectionText": "#ffffff",
+    "worldTitle": "Pokémon",
+    "worldSubtitle": "이 별에 사는 세상에서 가장 신기한 생물, 포켓몬스터. 줄여서 말하면 포켓몬!",
+    "worldQuote": "미숙함에서 어른으로. 우린, 세상을 구할 영웅이 되어ㅡ",
+    "worldDesc": "과거 한 챔피언이 설립한 특수 아카데미, Zenith Academy.\n수많은 이들이 입학에 도전하지만, 오직 챔피언의 자질을 지닌 소수의 인재만이 선발된다.\n그리하여 모인 네 명의 신입생. 그리고 목표. 끝내 재앙에 맞서는 우리는 누구를 위해 움직였는가.",
+    "worldImage": ".",
+    "worldLink": "",
+    "overviewTitle": "세계관 개요",
+    "overviewSubtitle": "제니스 아카데미 Zenith Academy",
+    "overviewContent": "| 설립 목적\n미래 챔피언을 길러내는 것을 목료로 하고 있으나, 그저 트레이너를 양성하는 것만이 전부는 아니다. \n아카데미라는 이름에 걸맞게 기본적인 학업 교육과 다양한 직업에 관한 특별 수업도 함께 진행된다.\n다만 해당 수업은 저학년에서 주로 다루어지며 학년이 올라갈수록 챔피언이 되기 위한 실전 훈련이 주 목표가 된다.\n학생들을 포켓몬 배틀 전략, 포켓몬 생태 이해, 위기 대응 능력, 트레이너로서의 책임 등을 배우게 된다. \n\n즉 아카데미는 학생들을 단순한 배틀러가 아닌,\n포켓몬 리그를 대표할 수 있는 트레이너로 성장하도록 교육하는 기관이라 할 수 있다. \n\n\n| 구전 설화\n아주 오래전, 지금 아카데미가 세워진 이 마을은 사람이 살기 어려운 곳이었다고 전해진다.\n끊임없이 휘몰아치는 폭풍과 뒤틀린 자연, 그리고 이유 없이 난폭해진 포켓몬들.\n자연 재해와 포켓몬들의 난동으로 인해 마을은 늘 불안과 혼란 속에서 하루를 보냈다.\n\n그러던 어느 날, 마을에서 가장 포켓몬을 잘 다룬다고 알려진 한 트레이너가 앞으로 나섰다.\n그는 마을 사람들과 포켓몬들의 힘을 모아 이성을 잃고 날뛰던 포켓몬들을 하나씩 진정시키기 시작했다.\n시간이 지나며 재해로 쓰러진 마을도 본래의 모습을 되찾았고 이곳을 모두가 살 수 있는 땅으로 바꾸어 나갔다.\n\n하지만 사람들은 언젠가 이전과 같은 재해가 찾아올지도 모른다는 사실에 불안해했다.\n과거를 되풀이하지 않기 위해 아이들에게 포켓몬을 이해하고 다루는 법을 가르치기 시작했고, 이것이 이어져 지금의 아카데미가 되었다.\n\nㅡ는 것이 이 땅의 옛 이야기다.",
+    "storyTitle": "세계관 스토리",
+    "storySubtitle": "Protocol: Catastrophe",
+    "storyContent": "| 1학년_ 11세\n실력을 인정 받은 학생들은 더 높은 향하겠다는 다짐을 품은 채 아카데미의 문을 넘었다.\n모두가 마음에 품었을 단 하나의 목표. 챔피언이 되는 것.\n그러나 같은 목표 앞이라도 마음 가짐은 필히 다를 터였다.\n내 옆에 서 있는 누군가는 앞으로 함께 성장할 친구일까. 혹은 미래에 마주할 라이벌일까.\n정점을 향한 훈련을 결코 순탄치 않으며 우리의 앞에는 끝없는 시련과 패배,\n그리고 선택의 순간들이 기다리고 있을 것이다.\n\n\n| 8학년_ 18세\n어느덧 졸업반이 된 우리는 지금까지 수많은 배틀을 거쳐 왔다.\n때로는 승리를, 때로는 패배를 경험하며. 아카데미에서의 얼마 남지 않은 시간은 추억의 반증이 되었다.\n그렇게 점차 가까워지는 이별과 남아있는 몇 번의 연습 배틀. 그리고 필기시험.\n고향을 떠나 처음 이곳에 발을 들였던 것처럼, 이제는 새로운 출발을 위해.\n우린 각자의 정점을 향해 나아가야 할 때다.\n\n\n| 성인_ 26세\n아카데미를 졸업한 지 수년 후, 우리는 한  지방의 챔피언이 되어 각자의 길을 걷고 있었다.\n그러던 어느 날, 마을의 날씨가 이상해지고 포켓몬이 난폭해지는 등 설명할 수 없는 재해가 발생하기 시작했다.\n수많은 트레이너와 관장들이 대응하지만, 재해의 영향으로 폭주한 포켓몬들을 막기엔 역부족이었다.\n결국 아카데미는 각 지방의 챔피언이 된 우리들을 다시 소집해 자연 재해를 해결할 작전을 세우게 된다.\n재앙에 맞서기 위한 최후의 작전, Protocol: Catastrophe.\n",
+    "settingCategories": [
+      {
+        "name": "등장인물",
+        "subtitle": "CHARACTER",
+        "type": "character",
+        "pages": [
+          {
+            "name": "123",
+            "subtitle": "",
+            "content": ""
+          },
+          {
+            "name": "123",
+            "subtitle": "",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "name": "조직",
+        "subtitle": "ORGANIZATION",
+        "type": "normal",
+        "pages": []
+      }
+    ],
+    "aboutTitle": "ABOUT",
+    "aboutDesc": "Link",
+    "aboutImage": "https://sorry-blush-cjt6ai3c.edgeone.app/KakaoTalk_20260618_172159957.png",
+    "aboutLinks": [
+      {
+        "title": "뭐적지",
+        "value": "@your_id"
+      },
+      {
+        "title": "체크리스트",
+        "value": "https://..."
+      },
+      {
+        "title": "페어틀",
+        "value": "https://..."
+      },
+      {
+        "title": "뭐할래",
+        "value": "your@email.com"
+      }
+    ],
+    "projectText": "시릴x레머넌트 & 비제x제시아"
+  },
+  "characters": [
+    {
+      "id": "478f7b3e-dd06-4391-a6d6-48b7ffb80698",
+      "name": "Cyril",
+      "code": "C",
+      "desc": "시릴 26 남성 180",
+      "category": "ORIGIN",
+      "type": "남성",
+      "age": "26",
+      "height": "180",
+      "stats": {
+        "labels": [
+          "POWER",
+          "INTEL",
+          "MENTAL",
+          "SPEED",
+          "SENSE",
+          "CHARM"
+        ],
+        "values": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ]
+      },
+      "image": "images/profile.png",
+      "relations": [],
+      "stories": [
+        {
+          "date": "11세",
+          "title": "낮게, 더욱 추락과 같이",
+          "content": "33"
+        },
+        {
+          "date": "18세",
+          "title": "기류에 휩쓸리다",
+          "content": "."
+        },
+        {
+          "date": "26세",
+          "title": "끝내 비상을 향해",
+          "content": "."
+        }
+      ],
+      "memos": [
+        {
+          "title": "출신: 치엘지방",
+          "content": "산맥이 많은 남동부와 고도가 낮은 북서부로 나뉘는 지형. 특히 남동부는 고지대와 험난한 산맥 탓에 새 포켓몬이 자주 찾는 명소 중 하나였고, 이곳의 사람들은 과거부터 지금까지 오랜 시간 포켓몬과 유대를 쌓아왔다. 한 구전 설화에서 하늘을 나는 거대한 새 포켓몬을 수호신으로 묘사할 정도다. 이를 기리고자 제와 함께 트레이너가 자신의 새 포켓몬을 타고 산맥 사이를 활공하는 전통이 존재했는데, 현대로 넘어오며 치엘지방의 대표적인 포켓몬 레이스 (알로라 지방의 만타인 서핑과 유사하다. 포켓몬과 트레이너가 산맥 사이의 코스를 활공으로 통과하는 방식이다.)로 자리 잡았다.\n",
+          "date": "2026-06-27"
+        },
+        {
+          "title": "포켓몬 엔트리",
+          "content": "찌르호크 / 토대부기 / 렌트라 / 날쌩마 / 네오라이트 / 리피아",
+          "date": "2026-06-27"
+        },
+        {
+          "title": "성격",
+          "content": "#다정한 #내성적인 #나아가는 #승부욕 있는",
+          "date": "2026-06-27"
+        }
+      ],
+      "createdAt": 1782565036587
+    },
+    {
+      "id": "83523055-014e-44b9-a10e-2019b33f55e9",
+      "name": "강하늘",
+      "code": "",
+      "desc": "19 남성 180",
+      "category": "AU/IF",
+      "type": "",
+      "age": "",
+      "height": "",
+      "stats": {
+        "labels": [
+          "POWER",
+          "INTEL",
+          "MENTAL",
+          "SPEED",
+          "SENSE",
+          "CHARM"
+        ],
+        "values": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ]
+      },
+      "image": "https://numerous-olive-58t7eral.edgeone.app/KakaoTalk_20260531_032218168.png",
+      "relations": [],
+      "stories": [
+        {
+          "date": "",
+          "title": "4",
+          "content": "44"
+        }
+      ],
+      "memos": [
+        {
+          "title": "4",
+          "content": "44",
+          "date": "2026-06-27"
+        }
+      ],
+      "createdAt": 1782565045095
+    },
+    {
+      "id": "fe738839-2c80-4a03-b637-3c412adfe118",
+      "name": "Noxia",
+      "code": "C",
+      "desc": "녹시아 26 여성 174",
+      "category": "ORIGIN",
+      "type": "",
+      "age": "",
+      "height": "",
+      "stats": {
+        "labels": [
+          "POWER",
+          "INTEL",
+          "MENTAL",
+          "SPEED",
+          "SENSE",
+          "CHARM"
+        ],
+        "values": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ]
+      },
+      "image": "images/profile.png",
+      "relations": [],
+      "stories": [
+        {
+          "date": "11세",
+          "title": "첫번째 악동",
+          "content": "."
+        },
+        {
+          "date": "18세",
+          "title": "첫번째 악몽",
+          "content": ""
+        },
+        {
+          "date": "26세",
+          "title": "첫번째 절망",
+          "content": ""
+        }
+      ],
+      "memos": [
+        {
+          "title": "출신: 루스(Rus) 지방",
+          "content": "본래 큰 특징 없는 작은 시골 지방. 마을의 숲 뒤 구석 공동묘지가 자리하고 있다. 해당 지방의 챔피언 로드는 무조건적으로 도전자가 두 명인 상태로 진행 되며, 챔피언 또한 2인이다. 시골지방인 만큼 옛적부터 타인과의 협업과 돕는 것을 중시하였기에 자연히 생기게 된 방식이다. 시골 지방이라 챔피언 로드의 난이도 자체는 타 지방들에 비해서 낮지만 더블 배틀이라는 특성상 팀워크가 중요하기 때문에 골머리를 앓을 수 있다.",
+          "date": "2026-06-27"
+        },
+        {
+          "title": "포켓몬 엔트리",
+          "content": "샹델라 / 무우마직 / 탱탱겔 / 묘두기 / 공푸리 / 어둠대신",
+          "date": "2026-06-27"
+        },
+        {
+          "title": "성격",
+          "content": "#자기확신 #집요함 #여유",
+          "date": "2026-06-27"
+        }
+      ],
+      "createdAt": 1782566988813
+    },
+    {
+      "id": "540284b3-d578-45f3-a81d-548b2c413d4d",
+      "name": "Remnant L. Virelle",
+      "code": "B",
+      "desc": "레머넌트 라우라 비렐 26 여성 171",
+      "category": "ORIGIN",
+      "type": "",
+      "age": "",
+      "height": "",
+      "stats": {
+        "labels": [
+          "POWER",
+          "INTEL",
+          "MENTAL",
+          "SPEED",
+          "SENSE",
+          "CHARM"
+        ],
+        "values": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ]
+      },
+      "image": "images/profile.png",
+      "relations": [],
+      "stories": [
+        {
+          "date": "11세",
+          "title": "폐허의 잔재",
+          "content": ""
+        },
+        {
+          "date": "18세",
+          "title": "잔재의 상념",
+          "content": ""
+        },
+        {
+          "date": "26세",
+          "title": "잔재의 결말",
+          "content": ""
+        }
+      ],
+      "memos": [
+        {
+          "title": "출신: 아카디아(Arcadia) 지방",
+          "content": "드넓은 초원/활화산/숲이 한데 어울리는 초목 중심의 푸르른 녹음의 지방. 화산 활동으로 만들어진 거대한 호수와 지하수 등, 풍부한 물 자원이 유명하고, 과거 화산 활동으로 아카디아 지방의 지형이 조금 떨어져나가 섬으로 변해버려서 주변에 섬이 휴양지로도 유명하다. 아카디아 지방에는 전통적으로 샌드위치를 포켓몬과 함께 만든다. 또, 나나열매를 재배하는 생산지로도 유명하다. 정말 말 그대로 자연과 공존하는 느긋한 아카디아 지방!",
+          "date": "2026-06-27"
+        },
+        {
+          "title": "포켓몬 엔트리",
+          "content": "맘모꾸리 / 삼삼드래 / 워글 / 입치트 / 글라이온 / 고디모아젤",
+          "date": "2026-06-27"
+        },
+        {
+          "title": "성격",
+          "content": "#책임감있는 #정이많은 #집요한",
+          "date": "2026-06-27"
+        }
+      ],
+      "createdAt": 1782567042248
+    },
+    {
+      "id": "fefbd83d-924e-433b-bf06-654fd4aae926",
+      "name": "Wiese",
+      "code": "B",
+      "desc": "비제 26 남성 189",
+      "category": "ORIGIN",
+      "type": "",
+      "age": "",
+      "height": "",
+      "stats": {
+        "labels": [
+          "POWER",
+          "INTEL",
+          "MENTAL",
+          "SPEED",
+          "SENSE",
+          "CHARM"
+        ],
+        "values": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ]
+      },
+      "image": "images/profile.png",
+      "relations": [],
+      "stories": [],
+      "memos": [
+        {
+          "title": "출신지방: 슈테른(Stern) 지방",
+          "content": "슈테른 지방은 고지대에 위치한 곳으로서, 속한 마을의 대부분이 산맥을 끼고 둘러싸여 있다. 이곳에서 평야는 보기 어렵고, 바다 또한 없다. 있는 물이라고는 옹달샘과 개천, 강이 전부다. 이러한 지형 탓에 외부와의 교류가 적다. 또, 지대가 높은 만큼 연중무휴 서늘한 날씨를 자랑한다. 기껏 해야 외부의 등산가들이나 오가는 것이 전부인 소도시 형태이기 때문에, 거대한 마천루보다 알록달록한 지붕의 층이 낮은 건물이 대부분이다. 덕분에 밤이 되면 수만 개의 별이 수놓인 하늘을 볼 수 있다.",
+          "date": "2026-06-27"
+        },
+        {
+          "title": "포켓몬 엔트리",
+          "content": "고고트 / 포트데스 / 워글 / 바라철록 / 암팰리스 / 라프라스",
+          "date": "2026-06-27"
+        },
+        {
+          "title": "성격",
+          "content": "#친절한 #진솔한 #예민한",
+          "date": "2026-06-27"
+        }
+      ],
+      "createdAt": 1782567095298
+    },
+    {
+      "id": "99c0e541-953f-4ca3-8933-c51fa0db5123",
+      "name": "서시은",
+      "code": "",
+      "desc": "19 여성 168",
+      "category": "AU/IF",
+      "type": "",
+      "age": "",
+      "height": "",
+      "stats": {
+        "labels": [
+          "POWER",
+          "INTEL",
+          "MENTAL",
+          "SPEED",
+          "SENSE",
+          "CHARM"
+        ],
+        "values": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ]
+      },
+      "image": "https://representative-tan-zpzo2b7g.edgeone.app/KakaoTalk_20260614_021531806.png",
+      "relations": [],
+      "stories": [],
+      "memos": [],
+      "createdAt": 1782568545839
+    },
+    {
+      "id": "8ab6e82d-f578-4b8b-b066-c13130e3c9ba",
+      "name": "도레미",
+      "code": "",
+      "desc": "19 여성 168",
+      "category": "AU/IF",
+      "type": "",
+      "age": "",
+      "height": "",
+      "stats": {
+        "labels": [
+          "POWER",
+          "INTEL",
+          "MENTAL",
+          "SPEED",
+          "SENSE",
+          "CHARM"
+        ],
+        "values": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ]
+      },
+      "image": "https://thorough-apricot-qeos4fgz.edgeone.app/KakaoTalk_20260614_021531806_01.png",
+      "relations": [],
+      "stories": [],
+      "memos": [],
+      "createdAt": 1782568568971
+    },
+    {
+      "id": "37273cca-2dc7-43f4-acfa-e688cc3fc852",
+      "name": "배휘제",
+      "code": "",
+      "desc": "19 남성 185",
+      "category": "AU/IF",
+      "type": "",
+      "age": "",
+      "height": "",
+      "stats": {
+        "labels": [
+          "POWER",
+          "INTEL",
+          "MENTAL",
+          "SPEED",
+          "SENSE",
+          "CHARM"
+        ],
+        "values": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ]
+      },
+      "image": "https://salty-teal-qfvsdiui.edgeone.app/KakaoTalk_20260627_212901278.png",
+      "relations": [],
+      "stories": [],
+      "memos": [],
+      "createdAt": 1782568588286
+    }
+  ],
+  "projects": [
+    {
+      "id": "fd8f5793-92a7-467f-b654-374e5382e9f2",
+      "title": "실렘",
+      "desc": "말 하지 못해 애가 탔다.\n\n손끝이 떨려 잡을 수 없었고\n자격을 논하니 세월로 남았다.\n그럼에도 마음은 사랑, 그 한 단어에 다 담기지를\n않더라.\n\n그러니 나 대신해 네 이름을 부를테니.\nㅡ네 모든 것이 나의 설렘이었다.",
+      "image": "https://powerful-gray-p2zgmxen.edgeone.app/KakaoTalk_20260627_201546401.png",
+      "tags": [
+        "연인 #hl #맞짝사랑 #연정 #첫사랑 #설렘"
+      ],
+      "worldDesc": "한 때 첫사랑을 되새기던 소녀는 어느새 훌쩍 자라 어른이 되었다.",
+      "characters": []
+    },
+    {
+      "id": "a4d83c16-8331-4159-987b-5af5f6959358",
+      "title": "제시아",
+      "desc": "사랑은 그토록 열렬하다던데.\n네 애는 별마저 장난스럽고,\n내 정은 침묵을 닮아 고요하다.\n\n그럼에도 사랑이던가?\nㅡ사랑이다.\n넌 영원에 걸친 밤인가?\nㅡ그럼 난 낮을 기다리지 않는 그루터기다.",
+      "image": "https://combative-teal-zbiipruu.edgeone.app/KakaoTalk_20260627_201303677.png",
+      "tags": [
+        "연인 #hl #고양이와_집사 #묵애 #밤 #그루터기"
+      ],
+      "worldDesc": "",
+      "characters": []
+    },
+    {
+      "id": "e91d0784-db11-4e8a-9f2a-82fabdea1519",
+      "title": "아우라",
+      "desc": "",
+      "image": "https://qualified-blush-5lhbcfuk.edgeone.app/KakaoTalk_20260627_214830432.png",
+      "tags": [
+        "단짝 #베스트프렌드"
+      ],
+      "worldDesc": "",
+      "characters": [
+        "fe738839-2c80-4a03-b637-3c412adfe118",
+        "540284b3-d578-45f3-a81d-548b2c413d4d"
+      ]
+    },
+    {
+      "id": "5b522151-f2ae-47a2-89bd-61a370f4054e",
+      "title": "시비꼬",
+      "desc": "우리...\n무슨 사이야?",
+      "image": "https://embarrassing-crimson-oh31oqg5.edgeone.app/KakaoTalk_20260628_212920709.png",
+      "tags": [
+        "단짝"
+      ],
+      "worldDesc": "",
+      "characters": [
+        "478f7b3e-dd06-4391-a6d6-48b7ffb80698",
+        "fefbd83d-924e-433b-bf06-654fd4aae926"
+      ]
+    }
+  ]
+}

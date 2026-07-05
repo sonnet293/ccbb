@@ -2051,27 +2051,8 @@ currentRelationIndex = null;
 /* DEFAULT */
 /* ========================= */
 
-if(characters.length === 0){
-
-characters.push({
-
-id: crypto.randomUUID(),
-name:"예시",
-code:"001",
-desc:"텍스트를 입력해주세요.",
-category:"ORIGIN",
-image:"images/profile.png",
-relations:[]
-});
-
-}
-
-document.getElementById("filterAUIF").classList.add("active");
-renderCharacters("AUIF");
-
 window.renderCharacters =
 renderCharacters;
-renderProjects();
 
 const statusEditor =
 document.getElementById(
@@ -3309,15 +3290,83 @@ projects.push(
 );
 
 }
-loadLocal();
+async function initializeArchive(){
 
-applyArchiveData();
+  try{
 
-renderAbout();
+    const response =
+    await fetch("./archive-editor.json");
 
-renderCharacters("AUIF");
+    if(!response.ok){
+      throw new Error(
+        "JSON 파일을 불러오지 못했습니다."
+      );
+    }
 
-renderProjects();
+    const data =
+    await response.json();
+
+
+    /* 메인 데이터 */
+
+    Object.assign(
+      archiveData,
+      data.archiveData || {}
+    );
+
+
+    /* 캐릭터 데이터 */
+
+    characters.length = 0;
+
+    characters.push(
+      ...(data.characters || [])
+    );
+
+
+    /* 프로젝트 데이터 */
+
+    projects.length = 0;
+
+    projects.push(
+      ...(data.projects || [])
+    );
+
+
+    /* 뷰어 모드 */
+
+    window.viewerMode = true;
+
+    document.body.classList.add(
+      "viewer-mode"
+    );
+
+
+    /* 화면 적용 */
+
+    applyArchiveData();
+
+    renderAbout();
+
+    renderCharacters("AUIF");
+
+    renderProjects();
+
+    renderSettingCategories();
+
+
+  }catch(error){
+
+    console.error(
+      "아카이브 로딩 실패:",
+      error
+    );
+
+  }
+
+}
+
+initializeArchive();
 const aboutEditor =
 document.getElementById(
 "aboutEditor"
